@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     login () {
-      this.$route.push({path: '/login'})
+      this.$router.push({path: '/login'})
     }
   },
   data () {
